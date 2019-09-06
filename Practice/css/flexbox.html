@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>css flexbox</title>
+
+<!--Flexbox = used to manage free space when building web page.-->
+
+
+<style>
+
+
+  #container{
+    background-color:black;
+    height: 400px;
+    display:flex;
+    flex-direction: row;
+
+  }
+
+#box1, #box2, #box3{
+  background-color:goldenrod;
+  height: 380px;
+  width: 200px;
+  margin: 10px;
+
+}
+
+
+#box1
+{flex-grow: 1;  
+order:1; }       
+
+#box2
+{flex-grow: 1;  
+order:2; }
+
+#box3
+{flex-grow: 1; 
+order: 3;   }     
+
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+  <div id="container">
+  
+  <div id="box1"><h1>box 1</h1><p></p></div>
+
+  <div id="box2"><h1>box 2</h1></div>
+
+  <div id="box3"><h1>box 3</h1></div>
+
+  <div></div>
+
+
+</div>
+
+
+
+</body>
+</html>
