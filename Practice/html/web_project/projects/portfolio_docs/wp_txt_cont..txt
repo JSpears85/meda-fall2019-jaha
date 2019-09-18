@@ -1,0 +1,27 @@
+HOME PAGE TXT CONTENT:
+
+welcome:
+This web page is Ode to the greatest basketball player ever Micheal Jordan.
+This web page highlights his greatest moments during the NBA finals, as well as 
+a brief look at the shoes he won them in. Micheal Jordan trancended the game of basketball
+not only on court by electrifying fans and dominating his opponents but also off the court
+with his sneaker brand Air Jordan, which help give birth to the modern sneakerhead craze. 
+
+
+
+
+About:
+My name is Jaha Spears, I am an aspiring programmer as well as a husband and father. My goals
+are to become an entrepreneur as well as a top tier web desinger. This is my first of many projects to come.
+i look forward to sharing my work and building new partnerships.
+
+
+
+Projects:
+this section will show a variety of jpegs. following comments of thier signifcants 
+to the page. I will give context to each pic.
+
+Contact:
+Email:Jahaspears@mail.com
+Github: Jspears85
+Linkedin: JahaSpears85

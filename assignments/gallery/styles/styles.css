@@ -1,0 +1,13 @@
+h1{
+    font-family:fantasy;
+    font-size: 40px;
+    color:red;
+    text-align: center;
+
+}
+body {
+    background-image: "url images/highflying.jpg";
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}

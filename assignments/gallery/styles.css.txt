@@ -1,0 +1,64 @@
+body{
+
+}
+
+#container{
+    background-color:grey
+    width:80%;
+    height:800px;
+    margin: 0 auto;
+}
+
+header,main,footer,{
+    margin: 10px;
+
+}
+/*header start*/
+header{
+    background-color:whitesmoke;
+    height:200px;
+    margin-top: 0;
+/*header end*/
+
+/*main start*/
+}
+
+main{
+    background-color:whitesmoke;
+    height:500px;
+    padding-top:10px;
+
+
+
+
+}
+/*main end*/
+
+#main-gallery{
+    background-color:black;
+    height:300px;
+    margin:10px;
+    margin:0 10px 10px 10px;
+
+}
+
+#main-gallery div{
+    background-color:whitesmoke;
+    width:32%;
+    height:100%;
+    float: left;
+    margin:10px;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+/*footer start*/
+footer{
+    background-color:whitesmoke
+    height:100px;
+    margin-bottom:0;
+
+}
+

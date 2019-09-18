@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>rough_draft1</title>
+
+ <style>
+
+#grid-container{
+    width:600px;
+    height:600px;
+    background-color:black;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 5px solid red;
+    grid-gap: 10px;
+
+}
+
+#box1,#box2,#box3{
+    background-color: red;
+    height:200px;
+    margin: 5px;
+
+
+
+}
+
+#box1{
+    grid-row-start: 1;
+    grid-column-end: 1;
+ 
+
+
+}
+#box2{
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+#box3{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;  
+
+
+}
+
+
+     </style>
+
+
+</head>
+
+<body>
+
+    <div id="grid-container">
+        <div id="box1"><p>box1</p></div>
+        <div id="box2"><p>box2</p></div>
+        <div id="box3"><p>box3</p></div>
+
+
+    </div>
+  
+</body>
+</html>

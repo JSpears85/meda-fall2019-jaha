@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Grids</title>
+
+ <style>
+
+#grid-container{
+    width:600px;
+    height:600px;
+    background-color: khaki;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid blue;
+    grid-gap: 10px;
+
+}
+
+#box1,#box2,#box3{
+    background-color:lightblue;
+    height:150px;
+    margin: 10px;
+
+
+
+}
+
+#box1{
+    grid-row-start: 1;
+    grid-row-end:3; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+
+}
+#box2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+grid-column-start: 3;
+grid-row-end: 4;
+}
+#box3{ 
+  grid-column-start:3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;  
+
+
+}
+
+
+     </style>
+
+
+</head>
+
+<body>
+
+    <div id="grid-container">
+        <div id="box1"><p>box1</p></div>
+        <div id="box2"><p>box2</p></div>
+        <div id="box3"><p>box3</p></div>
+
+
+    </div>
+  
+</body>
+</html>
